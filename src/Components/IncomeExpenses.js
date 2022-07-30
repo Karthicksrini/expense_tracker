@@ -13,7 +13,7 @@ export const IncomeExpenses = () => {
       const amount_1=Math.abs(amount)
       if(amount>0) income+=amount_1
       if(amount<0) expense+=amount_1
-    
+      return income
   })
   return (
     <div className="inc-exp-container">
